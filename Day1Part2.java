@@ -92,7 +92,6 @@ class Day1Part2 {
             storeInt = 0;
             firstDone = false;
             totalNum = totalNum + num;
-            System.out.println(totalNum);
             num = 0;
         }
         System.out.println(totalNum);
