@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class AoCDay1Part1 {
+class AoC2015Day1Part1 {
     public static void main(String[] args) throws Exception {
         Scanner stdin = new Scanner(new File("input.txt"));
         int floor = 0;
