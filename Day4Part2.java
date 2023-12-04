@@ -10,13 +10,11 @@ class Day4Part2 {
         int endNum2 = 114;
         int goodNum = 10;
         int haveNum = 25;
-        int cardNum = 0;
         int copyNum = 0;
         int lineNum = 1;
         int copyTotal = 0;
         int[] copies = new int[204];
         while(stdin.hasNextLine()) {
-            cardNum += 1;
             int[] goodNums = new int[goodNum];
             int[] haveNums = new int[haveNum];
             int numCounter = 0;
