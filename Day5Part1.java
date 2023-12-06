@@ -4,7 +4,7 @@ import java.io.*;
 public class Day5Part1 {
     public static void main(String[] args) throws Exception {
         Scanner stdin = new Scanner(new File("input.txt"));
-        String str = stdin.next();
+        stdin.next();
         long[] seeds = new long[20];
         long[] locs = new long[20];
         int cnt = 0;
